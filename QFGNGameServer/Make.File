@@ -1,0 +1,2 @@
+g++ QFGNGameServer.cpp QFGNGameServerI.cpp OutFactoryImp.cpp HttpInterface.cpp CommonUtil.cpp -o gamesvr -I. -I /opt/Ice-3.7.0/include -pthread -Wl,-rpath=/opt/Ice-3.7.0/lib64 -L /opt/Ice-3.7.0/lib64/ -lIce -lIceUtil -I../Common -L./outlib/curl/lib -lcurl -I./outlib/curl/include -I./outlib/jsoncpp/include -I./outlib/openssl/include -I./outlib/oauth/include -I./outlib/tools -L./outlib/openssl/lib -lssl -lcrypto -L./outlib/oauth/lib -loauth -L./outlib/jsoncpp/lib -ljson -lrt -ldl
+
